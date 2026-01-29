@@ -26,7 +26,7 @@ export function Header() {
               <span className="w-3 h-3 rounded-full bg-green-500/80" />
             </div>
             <div className="font-mono text-sm text-text-dim">
-              <span className="text-neon-green">themeimpact@2fa</span>
+              <span className="text-neon-green">2fa@themeimpact</span>
               <span className="text-text-dim">:</span>
               <span className="text-neon-cyan">~</span>
               <span className="text-text-dim">$</span>
