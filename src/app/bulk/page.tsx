@@ -1,5 +1,29 @@
+import type { Metadata } from 'next'
 import { BulkGenerator } from '@/components/bulk-generator'
 import { FaqAccordion } from '@/components/faq-accordion'
+
+export const metadata: Metadata = {
+  title: 'Bulk 2FA Generator | Generate Multiple TOTP Codes',
+  description:
+    'Generate multiple 2FA TOTP codes at once. Perfect for testing, account management, or batch processing. 100% client-side, secure, and private.',
+  keywords: [
+    'bulk 2FA generator',
+    'batch TOTP',
+    'multiple OTP codes',
+    'bulk authenticator',
+    'mass 2FA generation',
+  ],
+  alternates: {
+    canonical: '/bulk',
+  },
+  openGraph: {
+    title: 'Bulk 2FA Generator | Generate Multiple TOTP Codes',
+    description:
+      'Generate multiple 2FA TOTP codes at once. Perfect for testing and batch processing.',
+    url: '/bulk',
+    images: [{ url: '/og-bulk.png', width: 1200, height: 630 }],
+  },
+}
 
 const FAQ_ITEMS = [
   {

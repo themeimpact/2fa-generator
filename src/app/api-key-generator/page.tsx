@@ -1,5 +1,29 @@
+import type { Metadata } from 'next'
 import { ApiKeyGenerator } from '@/components/api-key-generator'
 import { FaqAccordion } from '@/components/faq-accordion'
+
+export const metadata: Metadata = {
+  title: 'API Key Generator | Secure Random Key Generator',
+  description:
+    'Generate cryptographically secure API keys instantly. Uses Web Crypto API for true randomness. Perfect for development, testing, and production use.',
+  keywords: [
+    'API key generator',
+    'random key generator',
+    'secure token generator',
+    'cryptographic key',
+    'secret key generator',
+  ],
+  alternates: {
+    canonical: '/api-key-generator',
+  },
+  openGraph: {
+    title: 'API Key Generator | Secure Random Key Generator',
+    description:
+      'Generate cryptographically secure API keys instantly using Web Crypto API.',
+    url: '/api-key-generator',
+    images: [{ url: '/og-api-key.png', width: 1200, height: 630 }],
+  },
+}
 
 const FAQ_ITEMS = [
   {

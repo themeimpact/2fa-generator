@@ -1,5 +1,29 @@
+import type { Metadata } from 'next'
 import { TOTPGenerator } from '@/components/totp-generator'
 import { FaqAccordion } from '@/components/faq-accordion'
+
+export const metadata: Metadata = {
+  title: '2FA Generator | Free Online TOTP Code Generator',
+  description:
+    'Generate secure 2FA TOTP codes instantly. 100% client-side, RFC 6238 compliant. Works with Google Authenticator, Authy, Microsoft Authenticator. Your secret never leaves your browser.',
+  keywords: [
+    '2FA generator',
+    'TOTP generator',
+    'two-factor authentication',
+    'Google Authenticator online',
+    'OTP generator',
+    'authenticator code generator',
+  ],
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: '2FA Generator | Free Online TOTP Code Generator',
+    description:
+      'Generate secure 2FA TOTP codes instantly. 100% client-side, your secret never leaves your browser.',
+    url: '/',
+  },
+}
 
 const FAQ_ITEMS = [
   {
