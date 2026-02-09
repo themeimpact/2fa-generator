@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 const navItems = [
   { href: '/', label: 'single' },
   { href: '/bulk', label: 'bulk' },
+  { href: '/api-key-generator', label: 'api key' },
 ]
 
 const GITHUB_URL = 'https://github.com/themeimpact/2fa-generator'
